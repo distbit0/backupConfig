@@ -1,0 +1,6 @@
+{
+    "backupPaths": [
+        "**/config.json",
+        "**/.env"
+    ]
+}
