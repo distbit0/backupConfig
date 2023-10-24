@@ -29,4 +29,4 @@ def copy_and_rename_files(path_patterns):
 if __name__ == "__main__":
     paths = getConfig()["backupPaths"]
     copy_and_rename_files(paths)
-    os.system("/home/pimania/dev/git-auto/git-auto -d " + getAbsPath("../configFiles/") + " -o -p")
+    os.system("python3 /home/pimania/dev/git-auto/gitAutoCommit.py -p " + getAbsPath("../configFiles/"))
